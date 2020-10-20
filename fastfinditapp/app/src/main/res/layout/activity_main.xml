@@ -6,6 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="700dp"
+        android:background="#FC0"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/copyright_fastfind_u00a9_all_rights_reserved"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,8 +50,8 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="50dp"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

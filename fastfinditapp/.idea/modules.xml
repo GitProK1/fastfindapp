@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="fastfinditapp/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fastfinditapp.iml" filepath="$PROJECT_DIR$/.idea/modules/fastfinditapp.iml" group="fastfinditapp" />
+    </modules>
+  </component>
+</project>

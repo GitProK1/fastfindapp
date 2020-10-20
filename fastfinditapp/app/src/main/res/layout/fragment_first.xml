@@ -6,6 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="697dp"
+        android:background="#FC0"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/copyright_fastfind_u00a9_all_rights_reserved"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </RelativeLayout>
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
